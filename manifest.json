@@ -1,6 +1,6 @@
 {
     "name": "3DIAMONDS IMPRESIONES",
-    "short_name": "3DIAMONDS",
+    "short_name": "3DIAMONDSp",
     "description": "Tienda de impresiones en 3D de figuras y productos personalizados.",
     "start_url": "/index.html",
     "display": "standalone",
@@ -10,12 +10,12 @@
       {
         "src": "/img/whatsapp.png",
         "sizes": "192x192",
-        "type": "image/jpg"
+        "type": "image/png"
       },
       {
         "src": "/img/whatsapp.png",
         "sizes": "512x512",
-        "type": "image/jpg"
+        "type": "image/png"
       }
     ]
   }
