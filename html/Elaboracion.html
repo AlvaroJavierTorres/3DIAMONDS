@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style-elaboracion.css">
+	<script src="../js/script-catalogo.js"></script>
+    <title>Elaboracion</title>
+    
+</head>
+<body>
+  
+<section>   
+   <ul>
+    	<li><a href="../html/Contacto.html">Contacto</a></li>
+        <li><a href="../html/Nosotros.html">Acerca de nosotros</a></li>
+        <li><a href="../html/Elaboracion.html">Elaboracion</a></li>
+        <li><a href="../html/Catalogo.html">Catalogo</a></li>
+		<li><a href="../index.html">Inicio</a></li>
+    <li class="nav-item"> 
+      <div class="custom-control custom-switch navbar-light bg-light">
+          <input type="checkbox" class="custom-control-input" id="customSwitch1" onclick="cambiarModo()">
+          <label class="nav-link custom-control-label" for="customSwitch1">Modo oscuro</label>
+      </div>
+  </li>
+
+    </ul>
+  </section>
+	
+	
+    <div class="header">
+        <h2>¿Como se Elaboran los productos?</h2>
+      </div>
+      <div class="card">
+      <h2>Actualmente se hacen estos pasos para la elaboracion de estos productos llamativos</h2> 
+     </div>
+	
+      
+      <div class="roww">
+        <div class="leftcolumn">
+          <div class="card">	
+            <div class="reducir1">
+            <div class="ampliar1">
+              <div class="tip1">
+                <p class="colorfu1">            
+            1. Para el proceso de fabricación se usa una impresora 3D  creality cr-10 v3. 
+                </p>
+              </div>
+            </div>
+          </div>
+			</div>
+          <button onclick="ampliar()">Ampliar Fuente</button>
+          <button onclick="cambiacolor()">Clic aca para cambiar el color de la letra!</button>
+          <button onclick="reducir()">Reducir Fuente</button>
+        </div>
+        <div class="rightcolumn">
+          <div class="card">
+            <h2>Creality cr-10 v3</h2>
+            <div class="fakeimg"><img src="../img/Impresora.jpg" alt="impresora 3D" style="max-width: 83%; position: relative; left: 8%;"></div>
+          </div>
+        </div>
+      </div>
+      <div class="roww">
+        <div class="leftcolumn">
+          <div class="card">
+            <div class="reducir2">
+              <div class="ampliar2">
+                <div class="tip1">
+            <p class="colorfu2">            
+            2. El material que usa esta impresora 3D para realizar Las impresiones es PLA de 1.75mm la cual se puede encontrar en una gama amplia de colores 
+            </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button onclick="ampliarf2()">Ampliar Fuente</button>
+          <button onclick="cambiacolor2()">Clic aca para cambiar el color de la letra!</button>
+          <button onclick="reducirf2()">Reducir Fuente</button>
+        </div>
+        <div class="rightcolumn">
+          <div class="card">
+            <h2>Material de impresion PLA</h2>
+            <div class="fakeimg"><img src="../img/PLC.jpg" alt="PLA" style="max-width: 83%; position: relative; left: 8%;"></div>
+          </div>
+        </div>
+      </div>
+      <div class="roww">
+        <div class="leftcolumn">
+          <div class="card">
+            <div class="reducir3">
+              <div class="ampliar3">
+                <div class="tip1">
+            <p class="colorfu3">            
+            3. Se crea el diseño en el programa Ultimaker cura y se pasa por USB a la impresora, este diseño también puede ser a petición del cliente.
+            </p>
+                </div>
+              </div>
+            </div>
+          </div> 
+          <button onclick="ampliarf3()">Ampliar Fuente</button>
+          <button onclick="cambiacolor3()">Clic aca para cambiar el color de la letra!</button>
+          <button onclick="reducirf3()">Reducir Fuente</button>             
+        </div>
+        <div class="rightcolumn">
+          <div class="card">
+            <h2>Ultimaker cura</h2>
+            <div class="fakeimg"><img src="../img/Programa.jpg" alt="programa" style="max-width: 83%; position: relative; left: 8%;"></div>
+          </div>
+        </div>
+      </div>
+      <div class="roww">
+        <div class="leftcolumn">
+          <div class="card">
+            <div class="reducir4">
+              <div class="ampliar4">
+                <div class="tip1">
+            <p class="colorfu4">            
+            4. Para una figura de 10CM el tiempo de elaboración es de 6 horas
+            </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button onclick="ampliarf4()">Ampliar Fuente</button>
+          <button onclick="cambiacolor4()">Clic aca para cambiar el color de la letra!</button>
+          <button onclick="reducirf4()">Reducir Fuente</button>             
+        </div>
+        <div class="rightcolumn">
+          <div class="card">
+            <h2>Ultimaker cura</h2>
+            <div class="fakeimg"><img src="../img/Elaboracion.jpeg" alt="Elaboracion" style="max-width: 83%; position: relative; left: 8%;"></div>
+          </div>
+        </div>
+      </div>
+      <div class="roww">
+        <div class="leftcolumn">
+          <div class="card">
+            <div class="reducir5">
+              <div class="ampliar5">
+                <div class="tip1">
+            <p class="colorfu5">            
+            5. Luego de su elaboración se debe lijar, pintar y dar acabados finales
+            </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button onclick="ampliarf5()">Ampliar Fuente</button>
+          <button onclick="cambiacolor5()">Clic aca para cambiar el color de la letra!</button>
+          <button onclick="reducirf5()">Reducir Fuente</button>             
+        </div>
+        <div class="rightcolumn">
+          <div class="card">
+            <h2>Ultimaker cura</h2>
+            <div class="fakeimg"><img src="../img/Terminado.jpeg" alt="Terminado" style="max-width: 83%; position: relative; left: 8%;"></div>
+          </div>
+        </div>
+      </div>	  
+	
+	<footer>
+	<section>
+      <ul> 
+	  <li><img src="../img/whatsapp.png" alt="Logo red social" width="8%"></li>
+	  <li><img src="../img/instagram.png" alt="Logo red social" width="10%"></li>
+	  </ul>
+	</section>
+	</footer>
+
+      <script src="../js/script-elaboracion.js"></script>
+	
+    
+</body>
+</html>
