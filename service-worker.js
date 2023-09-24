@@ -9,7 +9,9 @@ self.addEventListener('install', (event) => {
           '/html/Contacto.html',
           '/html/Elaboracion.html',
           '/html/Nosotros.html',
+          '/js/script-catalogo.js',
           '/videos/1.impresora video.mp4',
+          '/videos/2.impresora video .mp4',
 
         ]);
       })
