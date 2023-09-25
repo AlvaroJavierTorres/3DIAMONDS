@@ -19,6 +19,8 @@ self.addEventListener('install', (event) => {
           'css/style-elaboracion.css',
           'css/style-index.css',
           'css/style-nosotros.css',
+          'img/logo.jpg',
+          
   
         ]);
       })
