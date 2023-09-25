@@ -10,9 +10,15 @@ self.addEventListener('install', (event) => {
           'html/Elaboracion.html',
           'html/Nosotros.html',
           'js/script-catalogo.js',
+          'js/script-elaboracion.js',
           'videos/1.impresora video.mp4',
           'videos/2.impresora video .mp4',
           'https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css',
+          'css/style-catalogo.css',
+          'css/style-contacto.css',
+          'css/style-elaboracion.css',
+          'css/style-index.css',
+          'css/style-nosotros.css',
   
         ]);
       })
