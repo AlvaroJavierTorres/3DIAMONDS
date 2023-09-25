@@ -3,16 +3,17 @@ self.addEventListener('install', (event) => {
     event.waitUntil(
       caches.open('my-cache').then((cache) => {
         return cache.addAll([
-
-          '/index.html',
-          '/html/Catalogo.html',
-          '/html/Contacto.html',
-          '/html/Elaboracion.html',
-          '/html/Nosotros.html',
-          '/js/script-catalogo.js',
-          '/videos/1.impresora video.mp4',
-          '/videos/2.impresora video .mp4',
-
+  
+          'index.html',
+          'html/Catalogo.html',
+          'html/Contacto.html',
+          'html/Elaboracion.html',
+          'html/Nosotros.html',
+          'js/script-catalogo.js',
+          'videos/1.impresora video.mp4',
+          'videos/2.impresora video .mp4',
+          'https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css',
+  
         ]);
       })
     );
